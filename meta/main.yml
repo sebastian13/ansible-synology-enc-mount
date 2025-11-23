@@ -1,0 +1,21 @@
+---
+
+galaxy_info:
+  role_name: synology_enc_mount
+  author: Sebastian Plocek
+  description: >
+    Mounts encrypted shares on a Synology NAS using synoshare CLI.
+  company: "PG IT Consulting eG"
+  license: "GPL-3.0-or-later"
+  min_ansible_version: 2.12
+  platforms:
+    - name: Synology
+      versions:
+        - all
+  galaxy_tags:
+    - synology
+    - nas
+    - encryption
+    - mount
+
+dependencies: []

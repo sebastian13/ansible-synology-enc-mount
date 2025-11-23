@@ -5,7 +5,7 @@ Use this role to mount encrypted shares on a Synology NAS.
 ### Install
 
 ```shell
-ansible-galaxy install sebastian13.synology-enc-mount --force 
+ansible-galaxy install sebastian13.synology_enc_mount --force 
 ```
 
 ### Example Playbook
@@ -17,7 +17,7 @@ ansible-galaxy install sebastian13.synology-enc-mount --force
   hosts: nas
 
   roles:
-    - role: sebastian13.synology-enc-mount
+    - role: sebastian13.synology_enc_mount
 
   vars:
     encpwd: !vault |
